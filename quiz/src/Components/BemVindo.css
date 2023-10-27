@@ -1,0 +1,25 @@
+#bem-vindo {
+    text-align: center;
+    max-width: 800%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #525252;
+}
+
+#bem-vindo h2,
+#bem-vindo p {
+    margin-bottom: 1.5rem;
+}
+
+#bem-vindo p {
+    color: yellow;
+}
+
+#bem-vindo img {
+    margin-top: 2rem;
+}
+

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "raleway", sans-serif;
+  color: #fafafa;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(90deg, #05002e 50%, rgb(45, 45, 255) 50%);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: .8rem 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(255, 251, 34) 0%, rgb(155, 144, 0) 100%);
+  width: 200px;
+  /*position: relative;
+  left: 70px; */
+}
+button:hover {
+  background: linear-gradient(90deg, rgb(155, 144, 0) 0%, rgb(255, 251, 34) 100%);
+}
+
+
